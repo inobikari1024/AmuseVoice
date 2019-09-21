@@ -73,10 +73,10 @@ bool __stdcall OpenWaveOutDevice(int _samplingRate, int _channel, int _blockSize
 				//vst.ProcessEvents();
 
 				// _sample分の時間のオーディオデータ合成
-				float** syntheized = vstPlugins[0]->ProcessAudio(_sample);
+				float** syntheized = vstPlugins[0].ProcessAudio(_sample);
 
 				size_t const channels_to_be_played =
-					std::min<size_t>(_deviceChannel, vst.GetEffect()->numOutputs);
+					std::min<size_t>(_deviceChannel, vstPlugins[0].GetEffect()->numOutputs);
 
 				// 合成したデータをオーディオデバイスのチャンネル数以内のデータ領域に書き出し。
 				// デバイスのサンプルタイプを16bit整数で開いているので、
