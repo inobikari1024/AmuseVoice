@@ -1,13 +1,15 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(438,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
   PluginReader.cpp
   class template optional is only available with C++17 or later.
-C:\Users\ohs60076\Documents\Visual Studio 2019\Projects\C#\AmuseVoice\PluginReader\Vst2Plugin.h(200,1): warning C4267:  '引数': 'size_t' から 'VstInt32' に変換しました。データが失われているかもしれません。
-C:\Users\ohs60076\Documents\Visual Studio 2019\Projects\C#\AmuseVoice\PluginReader\WaveOut.h(24,1): warning C4267:  '=': 'size_t' から 'DWORD' に変換しました。データが失われているかもしれません。
-C:\Users\ohs60076\Documents\Visual Studio 2019\Projects\C#\AmuseVoice\PluginReader\WaveOut.h(129,1): warning C4267:  '=': 'size_t' から 'DWORD' に変換しました。データが失われているかもしれません。
-C:\Users\ohs60076\Documents\Visual Studio 2019\Projects\C#\AmuseVoice\PluginReader\WaveOut.h(147,1): warning C4311:  'reinterpret_cast': ポインターを 'void (__cdecl *)(HWAVEOUT,UINT,DWORD_PTR,DWORD_PTR,DWORD_PTR)' から 'DWORD' へ切り詰めます。
+C:\Users\ohs60076\Documents\Visual Studio 2019\Projects\C#\AmuseVoice\AmuseVoice\PluginReader\Vst2Plugin.h(200,1): warning C4267:  '引数': 'size_t' から 'VstInt32' に変換しました。データが失われているかもしれません。
+C:\Users\ohs60076\Documents\Visual Studio 2019\Projects\C#\AmuseVoice\AmuseVoice\PluginReader\WaveOut.h(24,1): warning C4267:  '=': 'size_t' から 'DWORD' に変換しました。データが失われているかもしれません。
+C:\Users\ohs60076\Documents\Visual Studio 2019\Projects\C#\AmuseVoice\AmuseVoice\PluginReader\WaveOut.h(129,1): warning C4267:  '=': 'size_t' から 'DWORD' に変換しました。データが失われているかもしれません。
+C:\Users\ohs60076\Documents\Visual Studio 2019\Projects\C#\AmuseVoice\AmuseVoice\PluginReader\WaveOut.h(147,1): warning C4311:  'reinterpret_cast': ポインターを 'void (__cdecl *)(HWAVEOUT,UINT,DWORD_PTR,DWORD_PTR,DWORD_PTR)' から 'DWORD' へ切り詰めます。
   Vst2Plugin.cpp
-C:\Users\ohs60076\Documents\Visual Studio 2019\Projects\C#\AmuseVoice\PluginReader\WaveOut.h(147,1): warning C4302:  'reinterpret_cast': 'void (__cdecl *)(HWAVEOUT,UINT,DWORD_PTR,DWORD_PTR,DWORD_PTR)' から 'DWORD' へ切り詰めます。
-C:\Users\ohs60076\Documents\Visual Studio 2019\Projects\C#\AmuseVoice\PluginReader\Vst2Plugin.h(200,1): warning C4267:  '引数': 'size_t' から 'VstInt32' に変換しました。データが失われているかもしれません。
+C:\Users\ohs60076\Documents\Visual Studio 2019\Projects\C#\AmuseVoice\AmuseVoice\PluginReader\WaveOut.h(147,1): warning C4302:  'reinterpret_cast': 'void (__cdecl *)(HWAVEOUT,UINT,DWORD_PTR,DWORD_PTR,DWORD_PTR)' から 'DWORD' へ切り詰めます。
+C:\Users\ohs60076\Documents\Visual Studio 2019\Projects\C#\AmuseVoice\AmuseVoice\PluginReader\Vst2Plugin.h(200,1): warning C4267:  '引数': 'size_t' から 'VstInt32' に変換しました。データが失われているかもしれません。
   コードを生成中...
-C:\Users\ohs60076\Documents\Visual Studio 2019\Projects\C#\AmuseVoice\PluginReader\Vst2Plugin.cpp(74,27): warning C4244:  '=': 'size_t' から 'double' への変換です。データが失われる可能性があります。
-  PluginReader.vcxproj -> C:\Users\ohs60076\Documents\Visual Studio 2019\Projects\C#\AmuseVoice\\bin\Debug\PluginReader.dll
+C:\Users\ohs60076\Documents\Visual Studio 2019\Projects\C#\AmuseVoice\AmuseVoice\PluginReader\Vst2Plugin.cpp(74,27): warning C4244:  '=': 'size_t' から 'double' への変換です。データが失われる可能性があります。
+  LINK : 前回のインクリメンタル リンクで C:\Users\ohs60076\Documents\Visual Studio 2019\Projects\C#\AmuseVoice\AmuseVoice\\bin\Debug\PluginReader.dll が見つからなかったか、ビルドされませんでした。フル リンクを行います。
+     ライブラリ C:\Users\ohs60076\Documents\Visual Studio 2019\Projects\C#\AmuseVoice\AmuseVoice\\bin\Debug\PluginReader.lib とオブジェクト C:\Users\ohs60076\Documents\Visual Studio 2019\Projects\C#\AmuseVoice\AmuseVoice\\bin\Debug\PluginReader.exp を作成中
+  PluginReader.vcxproj -> C:\Users\ohs60076\Documents\Visual Studio 2019\Projects\C#\AmuseVoice\AmuseVoice\\bin\Debug\PluginReader.dll

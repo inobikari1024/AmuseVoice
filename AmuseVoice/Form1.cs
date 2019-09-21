@@ -70,6 +70,7 @@ namespace AmuseVoice
             //waveProvider.BufferLength = 44100;
             //waveProvider.BufferDuration = TimeSpan.FromMilliseconds(10000);
 
+            ///OpenWaveOutDevice(44100, channels, 1024, 4);
             waveOut = new WaveOut();
             waveOut.Init(waveProvider);
             waveOut.DeviceNumber = outputDeviceBox.SelectedIndex;
@@ -128,6 +129,9 @@ namespace AmuseVoice
 
         [DllImport("PluginReader.dll")]
         extern static bool LoadPlugin(string vstPath);
+        [DllImport("PluginReader.dll")]
+        extern static bool OpenWaveOutDevice(int samplingRate, int channel, int blockSize, int bufferMultiplicity);
+
 
         private void AddButton_Click(object sender, EventArgs e)
         {

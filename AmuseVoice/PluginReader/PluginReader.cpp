@@ -57,10 +57,10 @@ bool __stdcall OpenWaveOutDevice(int _samplingRate, int _channel, int _blockSize
 
 	// デバイスオープン
 	bool const open_device = wave_out_.OpenDevice(
-			SAMPLING_RATE,
-			2,	// 2ch
-			BLOCK_SIZE,				// バッファサイズ。再生が途切れる時はこの値を増やす。ただしレイテンシは大きくなる。
-			BUFFER_MULTIPLICITY,	// バッファ多重度。再生が途切れる時はこの値を増やす。ただしレイテンシは大きくなる。
+			_samplingRate,
+			_channel,	// チャンネル数
+			_blockSize,				// バッファサイズ。再生が途切れる時はこの値を増やす。ただしレイテンシは大きくなる。
+			_bufferMultiplicity,	// バッファ多重度。再生が途切れる時はこの値を増やす。ただしレイテンシは大きくなる。
 
 			// デバイスバッファに空きがあるときに呼ばれるコールバック関数。
 			// このアプリケーションでは、一つのVstPluginに対して合成処理を行い、合成したオーディオデータをWaveOutProcessorの再生バッファへ書き込んでいる。
