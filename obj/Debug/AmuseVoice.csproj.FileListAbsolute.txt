@@ -1,0 +1,13 @@
+C:\Users\ohs60076\Documents\Visual Studio 2019\Projects\C#\AmuseVoice\bin\Debug\AmuseVoice.exe.config
+C:\Users\ohs60076\Documents\Visual Studio 2019\Projects\C#\AmuseVoice\bin\Debug\AmuseVoice.exe
+C:\Users\ohs60076\Documents\Visual Studio 2019\Projects\C#\AmuseVoice\bin\Debug\AmuseVoice.pdb
+C:\Users\ohs60076\Documents\Visual Studio 2019\Projects\C#\AmuseVoice\bin\Debug\NAudio.dll
+C:\Users\ohs60076\Documents\Visual Studio 2019\Projects\C#\AmuseVoice\bin\Debug\NAudio.xml
+C:\Users\ohs60076\Documents\Visual Studio 2019\Projects\C#\AmuseVoice\obj\Debug\AmuseVoice.csprojAssemblyReference.cache
+C:\Users\ohs60076\Documents\Visual Studio 2019\Projects\C#\AmuseVoice\obj\Debug\AmuseVoice.Form1.resources
+C:\Users\ohs60076\Documents\Visual Studio 2019\Projects\C#\AmuseVoice\obj\Debug\AmuseVoice.Properties.Resources.resources
+C:\Users\ohs60076\Documents\Visual Studio 2019\Projects\C#\AmuseVoice\obj\Debug\AmuseVoice.csproj.GenerateResource.cache
+C:\Users\ohs60076\Documents\Visual Studio 2019\Projects\C#\AmuseVoice\obj\Debug\AmuseVoice.csproj.CoreCompileInputs.cache
+C:\Users\ohs60076\Documents\Visual Studio 2019\Projects\C#\AmuseVoice\obj\Debug\AmuseVoice.csproj.CopyComplete
+C:\Users\ohs60076\Documents\Visual Studio 2019\Projects\C#\AmuseVoice\obj\Debug\AmuseVoice.exe
+C:\Users\ohs60076\Documents\Visual Studio 2019\Projects\C#\AmuseVoice\obj\Debug\AmuseVoice.pdb
