@@ -62,6 +62,8 @@ struct VstPlugin
 		directory_ = module_.GetPath();
 	}
 
+	VstPlugin(const VstPlugin& _src) {}
+
 	~VstPlugin()
 	{
 		terminate();
